@@ -17,9 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PracticalTest01Var01SecondaryActivity"
-            android:label="@string/title_activity_practical_test01_var01_secondary"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name=".PracticalTest01Var01SecondaryActivity" />
 
         <service
             android:name=".PracticalTest01Var01Service"

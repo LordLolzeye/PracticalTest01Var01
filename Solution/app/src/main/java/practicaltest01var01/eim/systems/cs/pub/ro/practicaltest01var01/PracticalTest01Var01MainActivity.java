@@ -87,7 +87,7 @@ public class PracticalTest01Var01MainActivity extends AppCompatActivity {
     private class SecondaryActivity implements View.OnClickListener {
         @Override
         public void onClick(View view) {
-            Intent intent = new Intent("ro.pub.cs.systems.eim.practicaltest01var01.intent.action.PracticalTest01Var01SecondaryActivity");
+            Intent intent = new Intent(getApplicationContext(), PracticalTest01Var01SecondaryActivity.class);
             intent.putExtra("ro.pub.cs.systems.eim.practicaltest01var01.coordinatesText", coordinatesText.getText());
             startActivityForResult(intent, 666);
         }
